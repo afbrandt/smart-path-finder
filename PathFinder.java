@@ -1,5 +1,5 @@
 import javax.swing.JFrame;
-
+import java.awt.*;
 
 public class PathFinder
 {
@@ -8,8 +8,13 @@ public class PathFinder
 	{
 		
 		JFrame window = new JFrame("Path Finder");
+
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		window.setMinimumSize(new Dimension(600,425));
+		window.add(new ImageHandler());
 		
+
+		window.pack();
 		window.setVisible(true);
 
 	}
