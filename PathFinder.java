@@ -11,8 +11,10 @@ public class PathFinder
 
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		window.setMinimumSize(new Dimension(600,425));
-		window.add(new ImageHandler());
 		
+		window.add(new ImageHandler());
+		window.setJMenuBar(new MenuHandler());
+		window.addMouseListener(new MouseHandler());
 
 		window.pack();
 		window.setVisible(true);

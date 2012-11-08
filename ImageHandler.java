@@ -11,7 +11,7 @@ public class ImageHandler extends Component
 
 	public void paint(Graphics g)
 	{
-		g.drawImage(image, 0, 0, null);
+		g.drawImage(image, 10, 10, null);
 	}
 	
 	public ImageHandler()
