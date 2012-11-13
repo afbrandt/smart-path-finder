@@ -4,6 +4,9 @@ import java.awt.event.ActionEvent;
 
 public class MenuHandlerSimulationNewSimulation extends AbstractAction
 {
+
+	private SimulationHandler simulator;
+
 	public MenuHandlerSimulationNewSimulation()
 	{
 		super("New Simulation", null);
@@ -11,6 +14,7 @@ public class MenuHandlerSimulationNewSimulation extends AbstractAction
 
 	public void actionPerformed(ActionEvent e)
 	{
-		JOptionPane.showMessageDialog(null, "New Simulation!");
+		//JOptionPane.showMessageDialog(null, "New Simulation!");
+		simulator = new SimulationHandler();
 	}
 }

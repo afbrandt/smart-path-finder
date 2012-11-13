@@ -20,7 +20,7 @@ public class MenuHandlerSimulation extends JMenu
 
 	public void addNewSimulation()
 	{
-		entry = new JMenuItem("New Simulation");
+		entry = new JMenuItem();
 		entry.setAction(new MenuHandlerSimulationNewSimulation());
 		add(entry);
 	}
