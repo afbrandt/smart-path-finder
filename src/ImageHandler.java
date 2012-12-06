@@ -18,7 +18,7 @@ public class ImageHandler extends Component
 	{
 		try
 		{
-			image = ImageIO.read(new File("boston.jpg"));
+			image = ImageIO.read(new File("images/cambridge-map-small.png"));
 		}
 		catch (IOException e)
 		{

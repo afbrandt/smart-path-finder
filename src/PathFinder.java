@@ -10,7 +10,7 @@ public class PathFinder
 		JFrame window = new JFrame("Path Finder");
 
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		window.setPreferredSize(new Dimension(600,425));
+		window.setPreferredSize(new Dimension(1050,610));
 		
 		window.add(new ImageHandler());
 		window.setJMenuBar(new MenuHandler());
